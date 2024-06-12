@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>amarElo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="flex">
+                <a href="#"><img src="img/logo.png" width="70px"></a>
+            </div>
+            <a class="logo-nome" href="/" >amarElo</a>
+            <!-- BOTÃO HAMBURGUER -->
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">Início</a></li>
+                <li><a href="/">Quem somos</a></li>
+                <li><a href="/">Parceiros</a></li>
+                <li><a href="/">Faça parte</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="container">
+            <div class="form-image">
+                <img src="img/logo.png" alt="">
+            </div>
+                
+           <div class="form">
+                <form action="" method="post">
+                        <div class="form-header">
+                            <div class="tittle">
+                                <h1>Cadastre-se</h1>
+                            </div>
+                            <div class="login-button">
+                                <button><a class="login-cor" href="#">Entrar</a></button>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="firstname">Nome</label>
+                                <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome completo" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="cpf">CPF/CNPJ</label>
+                                <input id="cpf" type="text" name="cpf" placeholder="000.000.000-00" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="birth">Data de nascimento</label>
+                                <input id="birth" type="date" name="birth" placeholder="DD/MM/AAAA" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="email">E-mail</label>
+                                <input id="email" type="text" name="emial" placeholder="Digite seu email" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="number">Celular</label>
+                                <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="endereco">Endereço</label>
+                                <input id="endereco" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="password">Senha</label>
+                                <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="Confirmpassword">Confirme sua senha</label>
+                                <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha novamente" required>
+                            </div>
+                        </div>
+
+                        <div class="gender-inputs">
+                            <div class="gender-tittle">
+                                <h6>Gênero</h6>
+                            </div>
+
+                            <div class="gender-group">
+                                <div class="gender-input">
+                                    <input type="radio" name="gender" id="female">
+                                    <label for="female">Feminino</label>
+                                </div>
+
+                                <div class="gender-input">
+                                    <input type="radio" name="gender" id="male">
+                                    <label for="male">Masculino</label>
+                                </div>
+
+                                <div class="gender-input">
+                                    <input type="radio" name="gender" id="others">
+                                    <label for="others">Outros</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="continue-button">
+                        <button><a class="continue-button-cor" href="#">Continuar</a></button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>
